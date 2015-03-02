@@ -3,35 +3,120 @@
 <head>
   <title>The Bean Truck</title>
   <meta charset="utf-8">
+  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
   <style>
   body {
-    text-align: center;
+    font-family: 'Sanchez', serif;
+  }
+  h1 {
+    text-align: left;
+    padding-left: 15%;
+    font-family: 'Sigmar One', cursive;
+    color: white;
+    margin: 0%;
+  }
+  #headerContainer {
+    background-color: black;
+  }
+  h2 {
+    text-align: left;
+    padding-left: 15%;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    margin: 0%;
+  }
+  h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-style: bold;
+  }
+  #apps img {
+    float: right;
+    padding-left: 5em;
+  }
+  #sandwich img {
+    float: right;
+    padding-left: 5em;
+  }
+  #riceandbeans img {
+    float: right;
+    padding-left: 5em;
+  }
+  #soup {
+    clear: both;
+    padding: 5px;
+    text-align: right;
+    margin-right: 33%;
+  }
+  #apps {
+    text-align: right;
+    margin-left: 15%;
+    margin-right: 17%;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+  }
+  #whiteBean {
+    margin-right: 24%;
+  }
+  #sandwich {
+    text-align: right;
+    margin-right: 17%;
+    margin-left: 15%;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: black;
+  }
+  #riceandbeans {
+    text-align: right;
+    margin-right: 17%;
+    margin-left: 15%;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+  }
+  strong {
+    font-style: bold;
   }
   </style>
 </head>
 <body>
-  <h1>The Bean Truck</h1>
-  <h2>Beans are good food!</h2>
+  <div id="headerContainer">
+    <div id="heading1"><h1>The Bean Truck</h1></div>
+    <div id="heading2"><h2>Beans are good food!</h2></div>
+  </div>
   <section id="apps">
-    <h3>Appetizers</h3>
-    <p class="item"><strong>Farinata:</strong> <img src="images/farinata.jpg" alt="farinata">A light, crispy pancake made of chickpea flour and seasoned with rosemary and black pepper.</p>
+    <img src="images/farinata.jpg" alt="farinata"><h3><strong>Appetizers</strong></h3>
+    <p class="item"><strong>Farinata:</strong>A light, crispy pancake made of chickpea flour and seasoned with rosemary and black pepper.</p>
     <p class="item"><strong>Hummus:</strong> The classic chickpea dip. Ours has sriacha and lots of lemon. Served with pita and oil-cured black olives.</p>
-    <p class="item"><strong>White Bean Dip:</strong> Creamy cannelini beans mashed with olive oil, oregano, and lots of black pepper. Served with crostini and piave cheese</p>
+    <p class="item" id="whiteBean"><strong>White Bean Dip:</strong> Creamy cannelini beans mashed with olive oil, oregano, and lots of<br>black pepper. Served with crostini and piave cheese. </p>
   </section>
   <section id="soup">
-    <h3>Soups</h3>
+    <h3><strong>Soups</h3></strong>
     <p class="item"><strong>Tuscan Bean:</strong> White bean soup with kale, sausage and pancetta.</p>
     <p class="item"><strong>Cuban Black Bean:</strong> Spicy black bean soup with lime and cilantro.</p>
     <p class="item"><strong>Red Lentil Dal:</strong> Indian red lentil soup seasoned with curry. Served with flakey paratha bread.</p>
   </section>
   <section id="sandwich">
-    <h3>Sandwiches</h3>
+    <p> </p>
+    <img src="images/whitebeancake.jpg" alt="white bean cake"><h3><strong>Sandwiches</h3></strong>
     <p class="item"><strong>Falafel:</strong> The classic. Deep fried and crispy, loaded with cumin.</p>
-    <p class="item"><strong>White Bean Cake:</strong> <img src="images/whitebeancake.jpg" alt="white bean cake">White beans with rosemary, crisp on the outside and creamy in the middle. Served with house pickles.</p>
+    <p class="item"><strong>White Bean Cake:</strong>White beans with rosemary, crisp on the outside and creamy in the middle. Served with house pickles.</p>
+    <br>
+    <br>
+    <br>
   </section>
   <section id="riceandbeans">
-    <h3>Beans 'n Rice</h3>
-    <p class="item"><strong>Beer glazed black beans:</strong> <img src="images/blackbeans.jpg" alt="black beans"> Simmered in Flying Fish Oyster Stout, these spicy black beans are earthy and slightly sweet. Served with cornbread.</p>
+    <img src="images/blackbeans.jpg" alt="black beans"> <h3><strong>Beans 'n Rice</strong></h3>
+    <p class="item"><strong>Beer glazed black beans:</strong>Simmered in Flying Fish Oyster Stout, these spicy black beans are earthy and slightly sweet. Served with cornbread.</p>
     <p class="item"><strong>Red beans and rice:</strong> The New Orleans classic, cooked with pickled pork and creole spices.</p>
+    <br>
+    <br>
+    <br>
+  </section>
 </body>
 </html>
